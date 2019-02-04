@@ -1,0 +1,10 @@
+<h1>hi</h1>
+<form>
+	<div>
+    <input type="text" placeholder="Vizsgakód" [(ngModel)]="vizsgakod" name="vizsgakod" />
+  </div>
+	<div *ngIf="vizsgakodErrorMsg">{{vizsgakodErrorMsg}}</div>
+	<div><button (click)="signInForVizsga()">Küldés</button></div>
+</form>
+
+<a routerLink="/login">login</a>

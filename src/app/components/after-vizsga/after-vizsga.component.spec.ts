@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AppComponent } from './app.component';
+import { AfterVizsgaComponent } from './after-vizsga.component';
 
-describe('AppComponent', () => {
-  let component: AppComponent;
-  let fixture: ComponentFixture<AppComponent>;
+describe('AfterVizsgaComponent', () => {
+  let component: AfterVizsgaComponent;
+  let fixture: ComponentFixture<AfterVizsgaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AppComponent ]
+      declarations: [ AfterVizsgaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AppComponent);
+    fixture = TestBed.createComponent(AfterVizsgaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
